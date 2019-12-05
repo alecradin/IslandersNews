@@ -1,0 +1,13 @@
+#topHeader {
+	background-color: #003087;
+	margin-bottom: 0px;
+	height: 108px;
+}
+
+#topHeader img {
+	max-width: 50%;
+}
+
+#headerLogo {
+	float: right;
+}

@@ -1,0 +1,78 @@
+body { 
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+#topHeader {
+	background-color: #003087;
+	margin-bottom: 0px;
+	height: 108px;
+}
+
+#topHeader img {
+	max-width: 50%;
+}
+
+#headerLogo {
+	float: right;
+}
+
+#main {
+	background-color: #fc4c02;
+	color: white;
+	font-size: 110%;
+}
+
+#sidebar {
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+.tableContainer {
+  display: table;
+  border-spacing: 15px;
+  border: 1px solid black;
+}
+
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+h1 {
+	color: #fc4c02;
+	font-size: 200%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+#past {
+	border: 1px solid black;
+	text-align: center;
+	font-style: italic;
+}
+#present {
+	border: 1px solid black;
+	text-align: center;
+	font-style: italic;
+}
+#future {
+	border: 1px solid black;
+	text-align: center;
+	font-style: italic;
+}
+
+#islandersPictures {
+	padding: 10px 0px 10px 40px;
+}
+
+
+
+
+
+
