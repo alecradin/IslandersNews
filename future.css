@@ -1,3 +1,9 @@
+body { 
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
 #topHeader {
 	background-color: #003087;
 	margin-bottom: 0px;
@@ -9,5 +15,88 @@
 }
 
 #headerLogo {
-	float: right;
+	position: absolute;
+	left: 15px;
+}
+li {
+	padding-top: 10px;
+}
+h1 {
+	color: #fc4c02;
+	font-size: 200%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+#main {
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #fc4c02;
+	color: white;
+	font-size: 110%;
+	word-spacing: 5px;
+}
+#main ul {
+	list-style: none;
+}
+#globalNav {
+	text-align: center;
+}
+#globalNav ul {
+	list-style: none
+}
+#globalNav li {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 120%;
+}
+#future {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.pictures {
+	text-align: center;
+}
+
+
+
+
+
+
+footer {
+  background-color: #fc4c02;
+  color:            white;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  margin-top:        0px;
+  font-size:        90%;
+}
+/*@media screen and (min-width: 481px) {
+
+}
+
+
+@media screen and (max width: 480px) {
+	
+}
+
+
+ @media print {
+	body{
+	font-family: Georgia;
+	}
+ }
+
+
+@media(min-width: 700px) {
+	.tableContainer {
+	display: table;
+	border: 4px solid black;
+	border-spacing: 15px;
+	}
 }

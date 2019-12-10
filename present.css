@@ -1,3 +1,9 @@
+body { 
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
 #topHeader {
 	background-color: #003087;
 	margin-bottom: 0px;
@@ -9,5 +15,94 @@
 }
 
 #headerLogo {
-	float: right;
+	position: absolute;
+	left: 15px;
+}
+h1 {
+	color: #fc4c02;
+	font-size: 200%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+li {
+	padding-top: 10px;
+}
+#main {
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #fc4c02;
+	color: white;
+	font-size: 110%;
+}
+#present {
+	border: 1px solid black;
+	text-align: center;
+}
+
+#globalNav {
+	text-align: center;
+}
+#globalNav ul {
+	list-style: none
+}
+#globalNav li {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 120%;
+}
+.blogOne {
+	margin-bottom: 10px;
+}
+header {
+	text-align: center;
+}
+header .pictures {
+	width: 100%;
+}
+.author {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.time {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+h3 {
+	font-size: 130%;
+	text-align: center;
+
+}
+#main ul {
+	list-style: none;
+}
+#blogOne {
+	padding-right: 15px;
+	word-spacing: 5px;
+}
+#blogOne q {
+	font-style: italic;
+}
+
+#blogTwo {
+	padding-right: 15px;
+	word-spacing: 5px;
+}
+
+
+
+
+footer {
+  background-color: #fc4c02;
+  color:            white;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  margin-top:        0px;
+  font-size:        90%;
 }
