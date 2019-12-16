@@ -18,15 +18,18 @@ body {
 	position: absolute;
 	left: 15px;
 }
-li {
-	padding-top: 10px;
-}
 h1 {
 	color: #fc4c02;
 	font-size: 200%;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	text-align: center;
+}
+li {
+	padding-top: 15px;
+}
+q {
+	font-style: italic;
 }
 #main {
 	border: 5px solid black;
@@ -36,11 +39,12 @@ h1 {
 	background-color: #fc4c02;
 	color: white;
 	font-size: 110%;
-	word-spacing: 5px;
 }
-#main ul {
-	list-style: none;
+#future {
+	border: 1px solid black;
+	text-align: center;
 }
+
 #globalNav {
 	text-align: center;
 }
@@ -53,16 +57,46 @@ h1 {
 	padding-right: 15px;
 	font-size: 120%;
 }
-#future {
-	border: 1px solid black;
+.blogOne {
+	margin-bottom: 10px;
+}
+header {
 	text-align: center;
 }
-
-.pictures {
+header .pictures {
+	width: 100%;
+	height: 85%;
+}
+.author {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.time {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+h3 {
+	font-size: 130%;
 	text-align: center;
+
+}
+#main ul {
+	list-style: none;
+}
+#blogOne {
+	padding-right: 15px;
+	word-spacing: 5px;
+}
+#blogOne q {
+	font-style: italic;
 }
 
-
+#blogTwo {
+	padding-right: 15px;
+	word-spacing: 5px;
+}
 
 
 
@@ -76,13 +110,19 @@ footer {
   margin-top:        0px;
   font-size:        90%;
 }
-/*@media screen and (min-width: 481px) {
-
+@media screen and (min-width: 481px) {
+	header .pictures {
+	width: 100%;
+	height: 85%;
+}
 }
 
 
-@media screen and (max width: 480px) {
-	
+@media screen and (max-width: 480px) {
+	header .pictures {
+	width: 100%;
+	height: 85%;
+}
 }
 
 
@@ -91,12 +131,3 @@ footer {
 	font-family: Georgia;
 	}
  }
-
-
-@media(min-width: 700px) {
-	.tableContainer {
-	display: table;
-	border: 4px solid black;
-	border-spacing: 15px;
-	}
-}
