@@ -77,3 +77,18 @@ footer {
   margin-top:        0px;
   font-size:        90%;
 }
+
+
+
+@media screen and (max-width: 480px) {
+	.pictures {
+	width:100%;
+	}
+}
+
+
+ @media print {
+	body{
+	font-family: Georgia;
+	}
+ }
