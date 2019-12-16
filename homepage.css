@@ -111,13 +111,23 @@ footer {
   font-size:        90%;
 }
 
-/*@media screen and (min-width: 481px) {
-
+@media screen and (min-width: 481px) {
+	#islandersPictures img {
+		padding: 10px 10px 10px 30px;
+		border: 1px;
+		border-color: #003087;
+		border-style: solid;
+		border-spacing: 10px;
+		margin: 10px 0 0 0;
+	}
 }
 
 
-@media screen and (max width: 480px) {
-	
+@media screen and (max-width: 480px) {
+		#islandersPictures img {
+			max-width: 270px;
+			max-height: 220px;
+		}
 }
 
 
@@ -135,5 +145,6 @@ footer {
 	border-spacing: 15px;
 	}
 }
+
 
 
